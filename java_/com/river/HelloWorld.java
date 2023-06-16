@@ -1,0 +1,7 @@
+package java_.com.river;
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
