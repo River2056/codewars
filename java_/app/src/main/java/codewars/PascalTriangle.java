@@ -1,4 +1,4 @@
-package java_.com.river;
+package codewars;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -53,13 +53,5 @@ public class PascalTriangle {
         }
 
         return res.stream().mapToLong(i -> i).toArray();
-    }
-
-    public static void main(String[] args) {
-        long[] result = generate(2);
-        System.out.println(Arrays.toString(result));
-
-        result = generate(4);
-        System.out.println(Arrays.toString(result));
     }
 }

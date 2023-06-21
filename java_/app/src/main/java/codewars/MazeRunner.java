@@ -1,4 +1,4 @@
-package java_.com.river;
+package codewars;
 
 /**
  * MazeRunner

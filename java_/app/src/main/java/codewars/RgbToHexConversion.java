@@ -1,4 +1,4 @@
-package java_.com.river;
+package codewars;
 
 import java.util.Map;
 
@@ -45,12 +45,5 @@ public class RgbToHexConversion {
         if (g > 255) g = 255;
         if (b > 255) b = 255;
         return String.format("%02X%02X%02X", r, g, b);
-    }
-    
-    public static void main(String[] args) {
-        System.out.printf("1. %s\n", rgbStringformat(255, 255, 255));
-        System.out.printf("2. %s\n", rgbStringformat(255, 255, 300));
-        System.out.printf("3. %s\n", rgbStringformat(0, 0, 0));
-        System.out.printf("4. %s\n", rgbStringformat(148, 0, 211));
     }
 }

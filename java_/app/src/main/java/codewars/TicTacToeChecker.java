@@ -1,4 +1,4 @@
-package java_.com.river;
+package codewars;
 
 import java.util.Arrays;
 import java.util.List;
@@ -33,23 +33,5 @@ public class TicTacToeChecker {
                 return 0;
         }
         return -1;
-    }
-
-    public static void main(String[] args) {
-        int[][] board = {
-            {0, 0, 1},
-            {0, 1, 2},
-            {2, 1, 0}
-        };
-
-        System.out.printf("1. %s\n", isSolved(board)); // -1
-
-        int[][] board2 = {
-            {1, 1, 1},
-            {0, 2, 2},
-            {0, 0, 0},
-        };
-
-        System.out.printf("2. %s\n", isSolved(board2)); // 1
     }
 }
